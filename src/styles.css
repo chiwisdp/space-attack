@@ -15,3 +15,5 @@
 .site-footer{margin-top:22px}
 @media(max-width:760px){.page-shell{width:calc(100% - 32px)}.brand{font-size:16px}.side-panel{grid-template-columns:minmax(0,1fr);gap:0;padding:16px}.side-panel .mission-block,.side-panel .controls-block,.side-panel .tip-card,.side-panel .side-bottom{grid-column:1;grid-row:auto}.side-panel .controls-block{margin-top:15px}.side-panel .tip-card{margin-top:13px}.side-panel .side-bottom{margin-top:14px}}
 @media(max-width:480px){.page-shell{width:calc(100% - 22px)}.brand{font-size:14px}}
+@media(max-height:960px){.game-layout{padding-top:16px;padding-bottom:12px}.game-column{width:min(100%,calc((100svh - 190px)*1.6));margin-inline:auto}}
+@media(max-width:480px) and (max-height:600px){.game-layout{padding-top:8px}.hud{height:50px}.game-column{width:min(100%,calc((100svh - 140px)*1.16))}}
