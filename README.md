@@ -2,6 +2,8 @@
 
 A keyboard controlled space shooter built with React, TypeScript, and Vite.
 
+Play it online: <https://chiwisdp.github.io/space-attack/> (available after the GitHub Pages workflow completes).
+
 ## Run locally
 
 ```sh
@@ -10,6 +12,8 @@ npm run dev
 ```
 
 To create a production build, run `npm run build`. To serve that build locally, run `npm run preview`.
+
+The `main` branch deploys to GitHub Pages through GitHub Actions.
 
 ## Controls
 
